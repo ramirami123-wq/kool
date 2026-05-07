@@ -1,1 +1,684 @@
-{"sections":{"main-product":{"type":"main-product","blocks":{"vendor":{"type":"text","settings":{"text":"{{ product.vendor }}","text_size":"text-base"}},"title":{"type":"title","settings":{"title_size":"product-title-md","title_size_mobile":"product-title-md","show_price":true,"show_rating":true}},"description":{"type":"description","settings":{"text_size":"text-base"}},"variant_picker":{"type":"variant_picker","settings":{"show_variant_labels":true,"picker_type":"button","enable_color_swatches":false,"color_swatch_type":"color","size_chart":""}},"inventory":{"type":"inventory","settings":{"inventory_threshold":5,"show_inventory_transfer":true,"show_inventory_quantity":"low","color_scheme":"accent-1"}},"buy_buttons":{"type":"buy_buttons","settings":{"show_quantity_selector":true,"show_dynamic_checkout":true,"show_gift_card_recipient":true,"enable_back_in_stock":false,"show_back_in_stock_name":false,"show_back_in_stock_phone":false}},"pickup_availability":{"type":"pickup_availability","settings":{}},"share":{"type":"share","settings":{"share_label":"Share","show_help_desk":true,"help_label":"Need help?","help_type":"drawer","help_page":""}},"complementary":{"type":"complementary","settings":{"heading":"Pairs well with","product_limit":4,"show_vendor":false,"show_price":true}},"sticky_buy_button":{"type":"sticky_buy_button","settings":{}}},"block_order":["vendor","title","description","variant_picker","inventory","buy_buttons","pickup_availability","share","complementary","sticky_buy_button"],"settings":{"enable_sticky_info":true,"media_size":66,"gallery_layout":"scroll","thumbnail_position":"beside","image_ratio":"adapt_first","image_zoom":"lightbox","hide_variants":false,"enable_video_autoplay":true,"enable_video_looping":true,"mobile_layout":"full_width","image_ratio_mobile":"adapt_first","mobile_thumbnail":false,"padding_top":0,"padding_bottom":84,"divider":false,"full_width":true,"rounded":false}},"help-drawer":{"type":"help-drawer","blocks":{"content-1":{"type":"content","settings":{"icon":"rocket","heading":"Shipping Information","text":"<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>","highlighted_text":"none","highlighted_scribble":"circle","color_text":"#b45309","color_background":"#fffbeb","gradient_background":"","color_highlight":"#ffddbf","gradient_highlight":""}},"content-2":{"type":"content","settings":{"icon":"headphone","heading":"Customer Support","text":"<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>","highlighted_text":"none","highlighted_scribble":"circle","color_text":"#0369a1","color_background":"#f0f9ff","gradient_background":"","color_highlight":"#ffddbf","gradient_highlight":""}},"content-3":{"type":"content","settings":{"icon":"chat_bubble","heading":"FAQ’s","text":"<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>","highlighted_text":"none","highlighted_scribble":"circle","color_text":"#be123c","color_background":"#fff1f2","gradient_background":"","color_highlight":"#ffddbf","gradient_highlight":""}},"content-4":{"type":"content","settings":{"icon":"phone","heading":"Contact Us","text":"<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>","highlighted_text":"none","highlighted_scribble":"circle","color_text":"#4d7c0f","color_background":"#f7fee7","gradient_background":"","color_highlight":"#ffddbf","gradient_highlight":""}}},"block_order":["content-1","content-2","content-3","content-4"],"settings":{"heading":"Need help?","description":"<p>If you have any questions, you are always welcome to contact us. We'll get back to you as soon as possible, within 24 hours on weekdays.<\/p>"}},"scrolling-text":{"type":"scrolling-text","blocks":{"text":{"type":"text","settings":{"text":"Trusted Products","text_size":160,"text_font":"body","highlighted_text":"stencil","highlighted_scribble":"circle"}}},"block_order":["text"],"settings":{"direction":"left","speed":20,"grid_horizontal":70,"enable_twin":false,"enable_parallax":true,"color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","padding_top":28,"padding_bottom":28,"divider":false,"rounded":false}},"faq":{"type":"faq","blocks":{"contact":{"type":"contact","settings":{"heading":"Didn’t find your answer?","text":"<p>Don't hestitate to contact us<\/p>","show_phone":false,"avatar_height":60,"highlighted_text":"none","highlighted_scribble":"circle"}}},"block_order":["contact"],"settings":{"style":"with-background","heading":"FAQs","heading_size":"title-lg tracking-heading","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"","description":"<p>Please read our <a href=\"#\" title=\"FAQ's\">FAQs<\/a> page to find out more.<\/p>","button_label":"","button_link":"","button_external":false,"button_icon":true,"highlighted_text":"none","highlighted_scribble":"circle","color_text":"#ffffff","color_background":"#171717","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"#171717","color_button_background":"#ffffff","color_button_gradient":"","color_overlay":"#ffffff","overlay_opacity":4,"padding_top":84,"padding_bottom":84,"divider":false,"narrow":false,"rounded":false}},"product-recommendations":{"type":"product-recommendations","settings":{"product_limit":6,"columns":4,"carousel_on_desktop":true,"columns_mobile":"1","swipe_on_mobile":true,"heading":"You may also like","heading_size":"title-md","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"","description":"","highlighted_text":"none","highlighted_scribble":"circle","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":72,"padding_bottom":72,"divider":false,"full_width":false,"rounded":true}},"recently-viewed":{"type":"recently-viewed","disabled":true,"settings":{"product_limit":6,"columns":4,"carousel_on_desktop":true,"columns_mobile":"1","swipe_on_mobile":true,"heading":"Recently Viewed","heading_size":"title-md","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"","description":"","highlighted_text":"none","highlighted_scribble":"circle","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":72,"padding_bottom":72,"divider":false,"full_width":false,"rounded":false}},"177297751426519bd7":{"type":"apps","settings":{"color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":72,"padding_bottom":72,"divider":false,"full_width":false,"rounded":false}},"177580931037f05085":{"type":"apps","blocks":{"bundler_bundler_target_element_Yngdjf":{"type":"shopify:\/\/apps\/bundler\/blocks\/bundler-target-element\/7a6ae1b8-3b16-449b-8429-8bb89a62c664","settings":{}}},"block_order":["bundler_bundler_target_element_Yngdjf"],"settings":{"color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":72,"padding_bottom":72,"divider":false,"full_width":false,"rounded":false}},"1776587356ac5072fa":{"type":"apps","blocks":{"sw_back_in_stock_product_restore_email_9gWGzA":{"type":"shopify:\/\/apps\/sw-back-in-stock\/blocks\/product-restore-email\/b190bced-3b7b-47da-a05f-6ea4821c3a77","settings":{}}},"block_order":["sw_back_in_stock_product_restore_email_9gWGzA"],"settings":{"color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":72,"padding_bottom":72,"divider":false,"full_width":false,"rounded":false}}},"order":["main-product","help-drawer","scrolling-text","faq","product-recommendations","recently-viewed","177297751426519bd7","177580931037f05085","1776587356ac5072fa"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "liquid_aGywqx": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.star-review-wrapper {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  flex-wrap: nowrap; /* prevent wrapping */\n}\n\n.star-icons {\n  display: flex; /* keeps stars in one line */\n  gap: 4px;\n}\n\n.star-icons svg {\n  width: 20px;\n  height: 20px;\n  fill: #ea6244;\n}\n\n.review-text {\n  font-size: 16px;\n  font-weight: 500;\n  color: #333;\n  white-space: nowrap;\n}\n\n/* Mobile Fix */\n@media (max-width: 480px) {\n  .star-review-wrapper {\n    flex-direction: row; /* force horizontal */\n    justify-content: center;\n    text-align: center;\n  }\n}\n</style>\n\n<div class=\"star-review-wrapper\">\n  <div class=\"star-icons\">\n    <!-- 5 Stars -->\n    <svg viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n  </div>\n\n  <div class=\"review-text\">\n    <strong>5</strong> by <strong>124+</strong> Customers\n  </div>\n</div>"
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_size": "text-base"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "product-title-md",
+            "title_size_mobile": "product-title-md",
+            "show_price": true,
+            "show_rating": true
+          }
+        },
+        "liquid_wCPcHF": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<section class=\"sale-timer\" aria-label=\"Sale countdown timer\">\n  <style>\n    .sale-timer{\n      width:100%;\n      padding:22px 12px;\n      display:flex;\n      justify-content:center;\n      background:##ff85d0;\n      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;\n    }\n    .sale-timer__wrap{\n      text-align:center;\n    }\n    .sale-timer__label{\n      font-size:24px;\n      font-weight:500;\n      color:#111;\n      margin:0 0 14px 0;\n      line-height:1.1;\n    }\n\n    .sale-timer__row{\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      gap:10px;\n    }\n\n    .sale-timer__box{\n      width:88px;\n      height:68px;\n      background:#ea6244;\n      color:#fff;\n      border-radius:6px;\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      font-size:34px;\n      font-weight:700;\n      letter-spacing:1px;\n      font-variant-numeric: tabular-nums;\n    }\n\n    .sale-timer__colon{\n      font-size:32px;\n      font-weight:700;\n      color:#ff2a2a;\n      line-height:1;\n      transform: translateY(-1px);\n      user-select:none;\n    }\n\n    @media (max-width:420px){\n      .sale-timer__label{ font-size:20px; }\n      .sale-timer__box{ width:72px; height:58px; font-size:30px; }\n      .sale-timer__colon{ font-size:28px; }\n      .sale-timer__row{ gap:8px; }\n    }\n  </style>\n\n  <div class=\"sale-timer__wrap\">\n    <div class=\"sale-timer__label\">Hurry! Sale ends in</div>\n\n    <div class=\"sale-timer__row\" role=\"timer\" aria-live=\"polite\">\n      <div class=\"sale-timer__box\" id=\"st-hours\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-mins\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-secs\">00</div>\n    </div>\n  </div>\n\n  <script>\n    (function () {\n      const durationHours = 12; // change if needed\n      const endAt = Date.now() + durationHours * 60 * 60 * 1000;\n\n      const h = document.getElementById(\"st-hours\");\n      const m = document.getElementById(\"st-mins\");\n      const s = document.getElementById(\"st-secs\");\n\n      const pad = n => String(n).padStart(2, \"0\");\n\n      function update(){\n        let diff = endAt - Date.now();\n        if(diff < 0) diff = 0;\n\n        const total = Math.floor(diff / 1000);\n        h.textContent = pad(Math.floor(total / 3600));\n        m.textContent = pad(Math.floor((total % 3600) / 60));\n        s.textContent = pad(total % 60);\n\n        if(diff === 0) clearInterval(timer);\n      }\n\n      update();\n      const timer = setInterval(update, 1000);\n    })();\n  </script>\n</section>"
+          }
+        },
+        "liquid_WhRePC": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">😴 Better Sleep Anytime</span> – Helps kids relax and fall asleep faster with soothing music or sounds.<br><br>\n\n<span style=\"font-weight: bold;\">🎧 Built-in Bluetooth Speakers</span> – Enjoy wireless listening without uncomfortable earbuds or headphones.<br><br>\n\n<span style=\"font-weight: bold;\">🌙 Soft, Comfortable Fit</span> – Stretchy and breathable headband designed for all-night comfort.\n</div>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": false,
+            "color_swatch_type": "color",
+            "size_chart": ""
+          }
+        },
+        "inventory": {
+          "type": "inventory",
+          "settings": {
+            "inventory_threshold": 5,
+            "show_inventory_transfer": true,
+            "show_inventory_quantity": "low",
+            "color_scheme": "accent-1"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true,
+            "enable_back_in_stock": false,
+            "show_back_in_stock_name": false,
+            "show_back_in_stock_phone": false
+          }
+        },
+        "liquid_TUwD6P": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>Order now to receive in <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        var currentDate = new Date();\n\n        var minDeliveryDate = new Date();\n        minDeliveryDate.setDate(currentDate.getDate() + 5); // 5 days from now\n\n        var maxDeliveryDate = new Date();\n        maxDeliveryDate.setDate(currentDate.getDate() + 7); // 7 days from now\n\n        var formatDate = function(date) {\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n              \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];\n            var day = date.getDate();\n            var monthIndex = date.getMonth();\n            return monthNames[monthIndex] + \" \" + day;\n        };\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        deliverySpan.textContent = formatDate(minDeliveryDate) + ' - ' + formatDate(maxDeliveryDate);\n    });\n</script>"
+          }
+        },
+        "pickup_availability": {
+          "type": "pickup_availability",
+          "settings": {}
+        },
+        "complementary": {
+          "type": "complementary",
+          "settings": {
+            "heading": "Pairs well with",
+            "product_limit": 4,
+            "show_vendor": false,
+            "show_price": true
+          }
+        },
+        "sticky_buy_button": {
+          "type": "sticky_buy_button",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "liquid_aGywqx",
+        "vendor",
+        "title",
+        "liquid_wCPcHF",
+        "liquid_WhRePC",
+        "variant_picker",
+        "inventory",
+        "buy_buttons",
+        "liquid_TUwD6P",
+        "pickup_availability",
+        "complementary",
+        "sticky_buy_button"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": 66,
+        "gallery_layout": "scroll",
+        "thumbnail_position": "beside",
+        "image_ratio": "adapt_first",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "mobile_layout": "full_width",
+        "image_ratio_mobile": "adapt_first",
+        "mobile_thumbnail": false,
+        "padding_top": 0,
+        "padding_bottom": 84,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
+    },
+    "help-drawer": {
+      "type": "help-drawer",
+      "blocks": {
+        "content-1": {
+          "type": "content",
+          "settings": {
+            "icon": "rocket",
+            "heading": "Shipping Information",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#b45309",
+            "color_background": "#fffbeb",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        },
+        "content-2": {
+          "type": "content",
+          "settings": {
+            "icon": "headphone",
+            "heading": "Customer Support",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#0369a1",
+            "color_background": "#f0f9ff",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        },
+        "content-3": {
+          "type": "content",
+          "settings": {
+            "icon": "chat_bubble",
+            "heading": "FAQ’s",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#be123c",
+            "color_background": "#fff1f2",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        },
+        "content-4": {
+          "type": "content",
+          "settings": {
+            "icon": "phone",
+            "heading": "Contact Us",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#4d7c0f",
+            "color_background": "#f7fee7",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        }
+      },
+      "block_order": [
+        "content-1",
+        "content-2",
+        "content-3",
+        "content-4"
+      ],
+      "settings": {
+        "heading": "Need help?",
+        "description": "<p>If you have any questions, you are always welcome to contact us. We'll get back to you as soon as possible, within 24 hours on weekdays.</p>"
+      }
+    },
+    "scrolling-text": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Sweet dreams made simple and comfortable",
+            "text_size": 160,
+            "text_font": "body",
+            "highlighted_text": "stencil",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "direction": "left",
+        "speed": 20,
+        "grid_horizontal": 70,
+        "enable_twin": false,
+        "enable_parallax": true,
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "padding_top": 28,
+        "padding_bottom": 28,
+        "divider": false,
+        "rounded": false
+      }
+    },
+    "image_with_text_UwCfXT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_bzbc4L": {
+          "type": "heading",
+          "settings": {
+            "heading": "Peaceful Sleep Made Easy",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_YGjPaE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Help your child relax and drift off faster with soft music and a comfortable design made for restful nights.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bzbc4L",
+        "text_YGjPaE"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/1777473491_php3ht8aog3f37111cDFVB.jpg",
+        "image_height": "650px",
+        "image_width": "medium",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "auto",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image_with_text_9F8eJ3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HCg43y": {
+          "type": "heading",
+          "settings": {
+            "heading": "Comfort Meets Technology",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_gPzyPz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Enjoy wireless listening with built-in speakers in a soft, stretchy headband perfect for sleep, travel, and relaxation.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HCg43y",
+        "text_gPzyPz"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/1777376729_phpff5k1mhh6u5ra0MUJF4.jpg",
+        "image_height": "650px",
+        "image_width": "medium",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "auto",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "blocks_qJjKz4": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_d9b9869_AjMQDp": {
+          "type": "ai_gen_block_d9b9869",
+          "settings": {
+            "heading": "Why choose us?",
+            "heading_size": 32,
+            "heading_color": "#ea6244",
+            "feature_column_label": "Features",
+            "us_column_label": "Us",
+            "others_column_label": "Others",
+            "show_badge": false,
+            "badge_text": "Best",
+            "badge_background": "#ea6244",
+            "badge_text_color": "#ffffff",
+            "feature_1": "Comfortable for Sleep",
+            "us_1": "check",
+            "others_1": "cross",
+            "feature_2": "Built-in Bluetooth",
+            "us_2": "check",
+            "others_2": "cross",
+            "feature_3": "Kid-Friendly Design",
+            "us_3": "check",
+            "others_3": "cross",
+            "feature_4": "Soft & Breathable Material",
+            "us_4": "check",
+            "others_4": "cross",
+            "feature_5": "Easy to Use",
+            "us_5": "check",
+            "others_5": "cross",
+            "feature_6": "",
+            "us_6": "check",
+            "others_6": "cross",
+            "feature_7": "",
+            "us_7": "check",
+            "others_7": "cross",
+            "feature_8": "",
+            "us_8": "check",
+            "others_8": "cross",
+            "feature_9": "",
+            "us_9": "check",
+            "others_9": "cross",
+            "feature_10": "",
+            "us_10": "check",
+            "others_10": "cross",
+            "desktop_width_percent": 100,
+            "table_border_radius": 8,
+            "header_font_size": 16,
+            "body_font_size": 14,
+            "table_background": "#ffffff",
+            "header_background": "#f9fafb",
+            "header_text_color": "#171717",
+            "body_text_color": "#171717",
+            "border_color": "#e5e7eb",
+            "us_column_background": "#ea6244",
+            "us_column_text_color": "#ffffff",
+            "us_cell_background": "#f0fdf4",
+            "check_background": "#ea6244",
+            "check_color": "#ffffff",
+            "cross_background": "#ef4444",
+            "cross_color": "#ffffff"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_d9b9869_AjMQDp"
+      ],
+      "name": "Us vs others table",
+      "settings": {}
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "question_t9xpCK": {
+          "type": "question",
+          "settings": {
+            "title": "Does it have Bluetooth?",
+            "text": "<p>Yes, it connects wirelessly to phones and devices.</p><p></p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_Bg6wRN": {
+          "type": "question",
+          "settings": {
+            "title": "Is it comfortable for kids to sleep in?",
+            "text": "<p>Yes, it’s made from soft, breathable fabric for all-night comfort.</p><p></p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_N4JkEn": {
+          "type": "question",
+          "settings": {
+            "title": "Can it be used without music?",
+            "text": "<p>Yes, it works as a normal soft headband too.</p><p></p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_46dqA4": {
+          "type": "question",
+          "settings": {
+            "title": "Is it safe for children?",
+            "text": "<p>Yes, it’s designed to be safe and gentle for kids.</p><p></p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "question_t9xpCK",
+        "question_Bg6wRN",
+        "question_N4JkEn",
+        "question_46dqA4"
+      ],
+      "settings": {
+        "style": "with-background",
+        "heading": "FAQs",
+        "heading_size": "title-lg tracking-heading",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "<p>Please read our <a href=\"#\" title=\"FAQ's\">FAQs</a> page to find out more.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "#ffffff",
+        "color_background": "#171717",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
+        "padding_top": 84,
+        "padding_bottom": 84,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_limit": 6,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "You may also like",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "product_limit": 6,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Recently Viewed",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "177580931037f05085": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_B69VEC": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "real_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_B69VEC"
+      ],
+      "settings": {
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "multicolumn_with_icons_bfN8m4": {
+      "type": "multicolumn-with-icons",
+      "blocks": {
+        "column_eBreFi": {
+          "type": "column",
+          "settings": {
+            "icon": "truck",
+            "custom_icon": "",
+            "heading": "24/7 Support",
+            "text": "",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_JJ9aaA": {
+          "type": "column",
+          "settings": {
+            "icon": "support",
+            "custom_icon": "",
+            "heading": "24/7 Support",
+            "text": "",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_eBreFi",
+        "column_JJ9aaA"
+      ],
+      "name": "t:sections.multicolumn-with-icons.presets.name",
+      "settings": {
+        "style": "with-border",
+        "columns": 3,
+        "text_alignment": "left",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "main-product",
+    "help-drawer",
+    "scrolling-text",
+    "image_with_text_UwCfXT",
+    "image_with_text_9F8eJ3",
+    "blocks_qJjKz4",
+    "faq",
+    "product-recommendations",
+    "recently-viewed",
+    "177580931037f05085",
+    "multicolumn_with_icons_bfN8m4"
+  ]
+}
