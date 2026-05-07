@@ -18,13 +18,6 @@
             "liquid": "<style>\n.star-review-wrapper {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  flex-wrap: nowrap; /* prevent wrapping */\n}\n\n.star-icons {\n  display: flex; /* keeps stars in one line */\n  gap: 4px;\n}\n\n.star-icons svg {\n  width: 20px;\n  height: 20px;\n  fill: #ea6244;\n}\n\n.review-text {\n  font-size: 16px;\n  font-weight: 500;\n  color: #333;\n  white-space: nowrap;\n}\n\n/* Mobile Fix */\n@media (max-width: 480px) {\n  .star-review-wrapper {\n    flex-direction: row; /* force horizontal */\n    justify-content: center;\n    text-align: center;\n  }\n}\n</style>\n\n<div class=\"star-review-wrapper\">\n  <div class=\"star-icons\">\n    <!-- 5 Stars -->\n    <svg viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n  </div>\n\n  <div class=\"review-text\">\n    <strong>5</strong> by <strong>124+</strong> Customers\n  </div>\n</div>"
           }
         },
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_size": "text-base"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -102,7 +95,6 @@
       },
       "block_order": [
         "liquid_aGywqx",
-        "vendor",
         "title",
         "liquid_wCPcHF",
         "liquid_WhRePC",
@@ -204,6 +196,7 @@
         "content-3",
         "content-4"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Need help?",
         "description": "<p>If you have any questions, you are always welcome to contact us. We'll get back to you as soon as possible, within 24 hours on weekdays.</p>"
@@ -216,7 +209,7 @@
           "type": "text",
           "settings": {
             "text": "Sweet dreams made simple and comfortable",
-            "text_size": 160,
+            "text_size": 52,
             "text_font": "body",
             "highlighted_text": "stencil",
             "highlighted_scribble": "circle"
@@ -544,6 +537,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "product_limit": 6,
         "columns": 4,
