@@ -79,15 +79,6 @@
           "type": "pickup_availability",
           "settings": {}
         },
-        "complementary": {
-          "type": "complementary",
-          "settings": {
-            "heading": "Pairs well with",
-            "product_limit": 4,
-            "show_vendor": false,
-            "show_price": true
-          }
-        },
         "sticky_buy_button": {
           "type": "sticky_buy_button",
           "settings": {}
@@ -103,7 +94,6 @@
         "buy_buttons",
         "liquid_TUwD6P",
         "pickup_availability",
-        "complementary",
         "sticky_buy_button"
       ],
       "settings": {
