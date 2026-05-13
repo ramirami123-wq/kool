@@ -59,7 +59,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "frontpage",
+        "collection": "headbands",
         "products": [],
         "product_limit": 6,
         "columns": 4,
@@ -67,7 +67,7 @@
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "heading": "All Products",
+        "heading": "Our Headbands",
         "heading_size": "title-md",
         "heading_alignment": "text-left md:items-end md:flex-row",
         "heading_tag": "h2",
