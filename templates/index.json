@@ -108,6 +108,45 @@
         "rounded": false
       }
     },
+    "17787050753a07e251": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_7b10b4f_bV894H": {
+          "type": "ai_gen_block_7b10b4f",
+          "settings": {
+            "image": "shopify://shop_images/us_vs_them.jpg",
+            "image_fit": "contain",
+            "image_position": "center center",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "heading": "",
+            "subheading": "",
+            "heading_size": 64,
+            "subheading_size": 20,
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "content_max_width": 800,
+            "content_alignment_horizontal": "center",
+            "content_alignment_vertical": "center",
+            "text_alignment": "center",
+            "button_text": "Shop now",
+            "button_link": "",
+            "button_font_size": 16,
+            "button_border_radius": 4,
+            "button_background": "#c79027",
+            "button_text_color": "#ffffff",
+            "button_hover_background": "#a67820",
+            "button_hover_text_color": "#ffffff"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_7b10b4f_bV894H"
+      ],
+      "settings": {}
+    },
     "scrolling-text-1": {
       "type": "scrolling-text",
       "blocks": {
@@ -298,6 +337,7 @@
     "slideshow_a9iCWL",
     "custom_liquid_8w3w9p",
     "featured_collection_kekFk3",
+    "17787050753a07e251",
     "scrolling-text-1",
     "rich-text-1",
     "faq_PdHbLe",
