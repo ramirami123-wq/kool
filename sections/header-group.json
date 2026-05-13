@@ -14,6 +14,18 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_gi4CBj": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "text": "<strong>Soft wireless comfort for little ears</strong>",
+            "link": "",
+            "hide_icon_mobile": true,
+            "text_mobile": "",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
         "announcement_cpNghq": {
           "type": "announcement",
           "settings": {
@@ -25,23 +37,11 @@
             "highlighted_text": "text",
             "highlighted_scribble": "circle"
           }
-        },
-        "announcement_gi4CBj": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "text": "Say Goodbye To Volume",
-            "link": "",
-            "hide_icon_mobile": true,
-            "text_mobile": "",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
         }
       },
       "block_order": [
-        "announcement_cpNghq",
-        "announcement_gi4CBj"
+        "announcement_gi4CBj",
+        "announcement_cpNghq"
       ],
       "settings": {
         "show_social": true,

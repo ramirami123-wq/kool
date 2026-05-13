@@ -16,11 +16,11 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/SIBLINGS.png",
-            "heading": "<em>Style Meets Comfort for Kids</em>",
+            "heading": "<em>The Softer Way For Kids To Listen</em>",
             "heading_size": "title-lg tracking-heading",
             "heading_tag": "h2",
-            "button_label": "",
-            "button_link": "",
+            "button_label": "shop now",
+            "button_link": "shopify://collections/all",
             "button_style": "primary",
             "button_external": false,
             "button_icon": false
