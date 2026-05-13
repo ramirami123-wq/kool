@@ -83,6 +83,9 @@
     },
     "contact-form": {
       "type": "contact-form",
+      "custom_css": [
+        ".text-sm{display:none;}"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "title-md",
