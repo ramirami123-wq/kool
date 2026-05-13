@@ -14,14 +14,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "logo_social": {
-          "type": "logo_social",
-          "settings": {
-            "logo_height": 50,
-            "show_social": false,
-            "enable_follow_on_shop": false
-          }
-        },
         "link_list-1": {
           "type": "link_list",
           "settings": {
@@ -32,6 +24,7 @@
         },
         "brand_information": {
           "type": "brand_information",
+          "disabled": true,
           "settings": {
             "heading": "",
             "button_label_1": "+961 70034408",
@@ -47,7 +40,6 @@
         }
       },
       "block_order": [
-        "logo_social",
         "link_list-1",
         "brand_information"
       ],
