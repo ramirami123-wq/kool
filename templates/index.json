@@ -184,6 +184,7 @@
       "block_order": [
         "text"
       ],
+      "disabled": true,
       "settings": {
         "text_alignment": "left",
         "text_alignment_mobile": "left",
@@ -215,105 +216,8 @@
         "rounded": false
       }
     },
-    "faq_PdHbLe": {
-      "type": "faq",
-      "blocks": {
-        "question_b4TE86": {
-          "type": "question",
-          "settings": {
-            "title": "How long does delivery take?",
-            "text": "<p>Delivery usually takes <strong>5–7 business days</strong> depending on your location. We always do our best to get your order to you as quickly as possible.</p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "question_pFcgwC": {
-          "type": "question",
-          "settings": {
-            "title": "Are your products safe for kids?",
-            "text": "<p>Yes! At <strong>The Kid Nest</strong>, your child’s safety is our top priority. All our products are carefully selected to be <strong>safe, high-quality, and kid-friendly</strong>.</p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "question_77Vndf": {
-          "type": "question",
-          "settings": {
-            "title": "Can I contact you on WhatsApp?",
-            "text": "<p>Absolutely! You can reach us on <strong>WhatsApp</strong> for any questions, support, or order inquiries. We’re always happy to help.</p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        }
-      },
-      "block_order": [
-        "question_b4TE86",
-        "question_pFcgwC",
-        "question_77Vndf"
-      ],
-      "name": "t:sections.faq.presets.name",
-      "settings": {
-        "style": "with-border",
-        "heading": "FAQs",
-        "heading_size": "title-md",
-        "heading_alignment": "text-left md:items-end md:flex-row",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "",
-        "button_label": "",
-        "button_link": "",
-        "button_external": false,
-        "button_icon": true,
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "color_overlay": "#ffffff",
-        "overlay_opacity": 4,
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "narrow": true,
-        "rounded": false
-      }
-    },
     "17781656336b53f611": {
       "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_c5bfa47_6zAqGB": {
-          "type": "ai_gen_block_c5bfa47",
-          "settings": {
-            "delivery_title": "Lebanon delivery",
-            "delivery_text": "All over Lebanon",
-            "support_title": "24/7 support",
-            "support_text": "Always here to help",
-            "desktop_width_percent": 100,
-            "padding": 20,
-            "gap": 20,
-            "border_radius": 10,
-            "background_color": "#ffffff",
-            "item_background_color": "#f7f7f7",
-            "icon_background_color": "#c79027",
-            "icon_color": "#ffffff",
-            "title_color": "#171717",
-            "text_color": "#666666",
-            "title_size": 16,
-            "text_size": 14,
-            "icon_size": 40,
-            "item_border_radius": 10
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_c5bfa47_6zAqGB"
-      ],
       "settings": {}
     }
   },
@@ -324,7 +228,6 @@
     "17787050753a07e251",
     "custom_liquid_NUxUTh",
     "rich-text-1",
-    "faq_PdHbLe",
     "17781656336b53f611"
   ]
 }
