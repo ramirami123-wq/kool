@@ -209,16 +209,7 @@
           "type": "question",
           "settings": {
             "title": "Can it be used without music?",
-            "text": "<p>Yes, it works as a normal soft headband too.</p><p></p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "question_46dqA4": {
-          "type": "question",
-          "settings": {
-            "title": "Is it safe for children?",
-            "text": "<p>Yes, it’s designed to be safe and gentle for kids.</p><p></p>",
+            "text": "<p><strong>Yes,</strong> it works as a normal soft headband too.</p><p></p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -227,8 +218,7 @@
       "block_order": [
         "question_t9xpCK",
         "question_Bg6wRN",
-        "question_N4JkEn",
-        "question_46dqA4"
+        "question_N4JkEn"
       ],
       "settings": {
         "style": "with-background",
