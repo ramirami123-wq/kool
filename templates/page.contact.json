@@ -114,12 +114,34 @@
         "narrow": false,
         "rounded": false
       }
+    },
+    "blocks_LjQ7pB": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_ffe9de2_EaPixc": {
+          "type": "ai_gen_block_ffe9de2",
+          "settings": {
+            "image": "shopify://shop_images/SIBLINGS_2.png",
+            "image_ratio": "square",
+            "image_fit": "cover",
+            "border_radius": 8,
+            "desktop_width_percent": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_ffe9de2_EaPixc"
+      ],
+      "name": "Image",
+      "settings": {}
     }
   },
   "order": [
     "main",
     "rich-text",
     "empty-space",
-    "contact-form"
+    "contact-form",
+    "blocks_LjQ7pB"
   ]
 }
