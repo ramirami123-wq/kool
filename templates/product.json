@@ -184,6 +184,83 @@
         "description": "<p>If you have any questions, you are always welcome to contact us. We'll get back to you as soon as possible, within 24 hours on weekdays.</p>"
       }
     },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "question_t9xpCK": {
+          "type": "question",
+          "settings": {
+            "title": "Does it have Bluetooth?",
+            "text": "<p>Yes, it connects wirelessly to phones and devices.</p><p></p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_Bg6wRN": {
+          "type": "question",
+          "settings": {
+            "title": "Is it comfortable for kids to sleep in?",
+            "text": "<p>Yes, it’s made from soft, breathable fabric for all-night comfort.</p><p></p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_N4JkEn": {
+          "type": "question",
+          "settings": {
+            "title": "Can it be used without music?",
+            "text": "<p>Yes, it works as a normal soft headband too.</p><p></p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_46dqA4": {
+          "type": "question",
+          "settings": {
+            "title": "Is it safe for children?",
+            "text": "<p>Yes, it’s designed to be safe and gentle for kids.</p><p></p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "question_t9xpCK",
+        "question_Bg6wRN",
+        "question_N4JkEn",
+        "question_46dqA4"
+      ],
+      "settings": {
+        "style": "with-background",
+        "heading": "FAQs",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "div",
+        "subheading": "",
+        "description": "<p>Please read our <a href=\"#\" title=\"FAQ's\">FAQs</a> page to find out more.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "#ffffff",
+        "color_background": "#d55539",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "#e11d48",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
+        "padding_top": 24,
+        "padding_bottom": 24,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
     "custom_liquid_wJqtpt": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
@@ -351,84 +428,6 @@
         "rounded": false
       }
     },
-    "faq": {
-      "type": "faq",
-      "blocks": {
-        "question_t9xpCK": {
-          "type": "question",
-          "settings": {
-            "title": "Does it have Bluetooth?",
-            "text": "<p>Yes, it connects wirelessly to phones and devices.</p><p></p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "question_Bg6wRN": {
-          "type": "question",
-          "settings": {
-            "title": "Is it comfortable for kids to sleep in?",
-            "text": "<p>Yes, it’s made from soft, breathable fabric for all-night comfort.</p><p></p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "question_N4JkEn": {
-          "type": "question",
-          "settings": {
-            "title": "Can it be used without music?",
-            "text": "<p>Yes, it works as a normal soft headband too.</p><p></p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "question_46dqA4": {
-          "type": "question",
-          "settings": {
-            "title": "Is it safe for children?",
-            "text": "<p>Yes, it’s designed to be safe and gentle for kids.</p><p></p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        }
-      },
-      "block_order": [
-        "question_t9xpCK",
-        "question_Bg6wRN",
-        "question_N4JkEn",
-        "question_46dqA4"
-      ],
-      "disabled": true,
-      "settings": {
-        "style": "with-background",
-        "heading": "FAQs",
-        "heading_size": "title-lg tracking-heading",
-        "heading_alignment": "text-left md:items-end md:flex-row",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "<p>Please read our <a href=\"#\" title=\"FAQ's\">FAQs</a> page to find out more.</p>",
-        "button_label": "",
-        "button_link": "",
-        "button_external": false,
-        "button_icon": true,
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
-        "color_text": "#ffffff",
-        "color_background": "#d55539",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "#e11d48",
-        "color_button_background": "#ffffff",
-        "color_button_gradient": "",
-        "color_overlay": "#ffffff",
-        "overlay_opacity": 4,
-        "padding_top": 84,
-        "padding_bottom": 84,
-        "divider": false,
-        "narrow": false,
-        "rounded": false
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -497,11 +496,11 @@
   "order": [
     "main-product",
     "help-drawer",
+    "faq",
     "custom_liquid_wJqtpt",
     "image_with_text_9F8eJ3",
     "blocks_qJjKz4",
     "custom_liquid_cfcxLt",
-    "faq",
     "product-recommendations",
     "recently-viewed"
   ]
