@@ -75,7 +75,9 @@
     },
     "featured_collection_kekFk3": {
       "type": "featured-collection",
-      "custom_css": [],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.collection .product-grid, .product-grid, ul.grid {display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 14px !important; } .collection .grid__item, .product-grid .grid__item, ul.grid > li.grid__item {width: 100% !important; max-width: 100% !important; }}"
+      ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "headbands",
