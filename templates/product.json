@@ -208,8 +208,8 @@
         "question_t9xpCK": {
           "type": "question",
           "settings": {
-            "title": "Does it have Bluetooth?",
-            "text": "<p>Yes, it connects wirelessly to phones and devices.</p><p></p>",
+            "title": "Will it be comptible with my device?",
+            "text": "<p>Our headbands are comptible with all bluetooth enabled devices!which means android, iphone, ipad and more</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
