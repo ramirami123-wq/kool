@@ -481,10 +481,29 @@
         "full_width": false,
         "rounded": false
       }
+    },
+    "custom_liquid_t9QhCP": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "liquid": "",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
     }
   },
   "order": [
     "main-product",
+    "custom_liquid_t9QhCP",
     "help-drawer",
     "faq",
     "custom_liquid_wJqtpt",
