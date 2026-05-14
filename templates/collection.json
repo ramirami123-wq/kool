@@ -92,7 +92,7 @@
         "promotion"
       ],
       "custom_css": [
-        ".card-information .caption-with-letter-spacing,.card__information .caption-with-letter-spacing,.card__vendor{display:none!important}"
+        ".card-information .caption-with-letter-spacing,.card__information .caption-with-letter-spacing,.card__vendor {display: none !important;}"
       ],
       "settings": {
         "products_per_page": 11,
@@ -105,7 +105,7 @@
         "filter_color_swatches": true,
         "enable_sorting": true,
         "padding_top": 32,
-        "padding_bottom": 20,
+        "padding_bottom": 32,
         "divider": false,
         "full_width": false,
         "rounded": true
