@@ -91,7 +91,9 @@
         "subcollections",
         "promotion"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".card-information .caption-with-letter-spacing,.card__information .caption-with-letter-spacing,.card__vendor{display:none!important}"
+      ],
       "settings": {
         "products_per_page": 11,
         "columns": 4,
