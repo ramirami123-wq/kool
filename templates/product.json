@@ -202,65 +202,6 @@
         "rounded": false
       }
     },
-    "image_with_text_9F8eJ3": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_HCg43y": {
-          "type": "heading",
-          "settings": {
-            "heading": "Where Comfort Meets Technology",
-            "heading_size": "title-lg tracking-heading",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "text_gPzyPz": {
-          "type": "text",
-          "settings": {
-            "text": "<p>No ear pain, no volume battles. Just calmer travels, quieter homes, and happier kids.</p>",
-            "text_size": "subtext-md",
-            "text_max_size": 32,
-            "text_font": "body",
-            "secondary_color": false,
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        }
-      },
-      "block_order": [
-        "heading_HCg43y",
-        "text_gPzyPz"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/Gemini_Generated_Image_eveskzeveskzeves.png",
-        "image_height": "550px",
-        "image_width": "medium",
-        "layout": "image_first",
-        "text_alignment": "left",
-        "content_position": "align-self-center",
-        "image_height_mobile": "auto",
-        "text_alignment_mobile": "left",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_background_2": "",
-        "gradient_background_2": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 32,
-        "padding_bottom": 32,
-        "divider": false,
-        "full_width": false,
-        "rounded": false,
-        "enable_parallax": true,
-        "parallax_direction": "horizontal"
-      }
-    },
     "blocks_qJjKz4": {
       "type": "_blocks",
       "blocks": {
@@ -349,6 +290,65 @@
         "divider": false,
         "narrow": false,
         "rounded": false
+      }
+    },
+    "image_with_text_9F8eJ3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HCg43y": {
+          "type": "heading",
+          "settings": {
+            "heading": "Where Comfort Meets Technology",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_gPzyPz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No ear pain, no volume battles. Just calmer travels, quieter homes, and happier kids.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HCg43y",
+        "text_gPzyPz"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Gemini_Generated_Image_eveskzeveskzeves.png",
+        "image_height": "550px",
+        "image_width": "medium",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "auto",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "horizontal"
       }
     },
     "faq": {
@@ -498,9 +498,9 @@
     "main-product",
     "help-drawer",
     "custom_liquid_wJqtpt",
-    "image_with_text_9F8eJ3",
     "blocks_qJjKz4",
     "custom_liquid_cfcxLt",
+    "image_with_text_9F8eJ3",
     "faq",
     "product-recommendations",
     "recently-viewed"
