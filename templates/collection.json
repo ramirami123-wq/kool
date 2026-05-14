@@ -101,8 +101,8 @@
         "filter_type": "drawer",
         "filter_color_swatches": true,
         "enable_sorting": true,
-        "padding_top": 40,
-        "padding_bottom": 12,
+        "padding_top": 32,
+        "padding_bottom": 32,
         "divider": false,
         "full_width": false,
         "rounded": true
@@ -138,74 +138,11 @@
         "full_width": false,
         "rounded": true
       }
-    },
-    "multicolumn_with_icons_UgfxtD": {
-      "type": "multicolumn-with-icons",
-      "blocks": {
-        "column_44CwDT": {
-          "type": "column",
-          "settings": {
-            "icon": "truck",
-            "custom_icon": "",
-            "heading": "Delivery All Over  Lebanon",
-            "text": "",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "column_4aNCnp": {
-          "type": "column",
-          "settings": {
-            "icon": "chat_bubble",
-            "custom_icon": "",
-            "heading": "24/7 Support",
-            "text": "",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        }
-      },
-      "block_order": [
-        "column_44CwDT",
-        "column_4aNCnp"
-      ],
-      "name": "t:sections.multicolumn-with-icons.presets.name",
-      "settings": {
-        "style": "with-border",
-        "columns": 3,
-        "text_alignment": "left",
-        "heading": "",
-        "heading_size": "title-md",
-        "heading_alignment": "text-center md:items-center",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "",
-        "button_label": "",
-        "button_link": "",
-        "button_external": false,
-        "button_icon": true,
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
     }
   },
   "order": [
     "main-collection-banner",
     "main-collection",
-    "recently-viewed",
-    "multicolumn_with_icons_UgfxtD"
+    "recently-viewed"
   ]
 }
