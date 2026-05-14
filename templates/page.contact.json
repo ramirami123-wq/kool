@@ -30,8 +30,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "We'd Love To Help",
-            "heading_size": "title-md",
+            "heading": "We'd Love To Help 🤍",
+            "heading_size": "title-sm",
             "heading_tag": "h2",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
