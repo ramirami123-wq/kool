@@ -199,8 +199,8 @@
         "question_Bg6wRN": {
           "type": "question",
           "settings": {
-            "title": "Is it comfortable for kids to sleep in?",
-            "text": "<p>Yes, it’s made from soft, breathable fabric for all-night comfort.</p><p></p>",
+            "title": "Size & Details",
+            "text": "<p><strong>- One size fits all: </strong> 24 cm and can stretch out to 30 cm.<br/><strong>- Fully machine washable:</strong> after removing the cables.<br/></p><p></p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -232,7 +232,7 @@
       ],
       "settings": {
         "style": "with-background",
-        "heading": "FAQs",
+        "heading": "FAQ's",
         "heading_size": "title-sm",
         "heading_alignment": "text-left md:items-end md:flex-row",
         "heading_tag": "div",
