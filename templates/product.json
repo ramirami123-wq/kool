@@ -232,9 +232,10 @@
         "heading_bzbc4L",
         "text_YGjPaE"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/1777473491_php3ht8aog3f37111cDFVB.jpg",
+        "image": "shopify://shop_images/Gemini_Generated_Image_gubha5gubha5gubh.png",
         "image_height": "650px",
         "image_width": "medium",
         "layout": "image_first",
@@ -291,6 +292,7 @@
         "heading_HCg43y",
         "text_gPzyPz"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/1777376729_phpff5k1mhh6u5ra0MUJF4.jpg",
@@ -331,8 +333,8 @@
         "color_button_text": "",
         "color_button_background": "",
         "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
+        "padding_top": 12,
+        "padding_bottom": 12,
         "divider": false,
         "narrow": false,
         "rounded": false
