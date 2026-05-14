@@ -205,20 +205,20 @@
     "faq": {
       "type": "faq",
       "blocks": {
-        "question_t9xpCK": {
-          "type": "question",
-          "settings": {
-            "title": "Will it be comptible with my device?",
-            "text": "<p>Our headbands are comptible with all bluetooth enabled devices!which means android, iphone, ipad and more</p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
         "question_Bg6wRN": {
           "type": "question",
           "settings": {
             "title": "Size & Details",
             "text": "<p><strong>- One size fits all: </strong> 24 cm and can stretch out to 30 cm.<br/><strong>- Fully machine washable:</strong> after removing the cables.<br/></p><p></p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_t9xpCK": {
+          "type": "question",
+          "settings": {
+            "title": "Will it be comptible with my device?",
+            "text": "<p>Our headbands are comptible with all bluetooth enabled devices!which means android, iphone, ipad and more</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -231,12 +231,22 @@
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
+        },
+        "question_y4Q9yw": {
+          "type": "question",
+          "settings": {
+            "title": "How do i charge it and how long does it last?",
+            "text": "<p>There is a USB plug within the bluetooth module that can easily be charged with the included UBS-C cable. <br/>Charge fully in about 2-3 hours </p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
         }
       },
       "block_order": [
-        "question_t9xpCK",
         "question_Bg6wRN",
-        "question_N4JkEn"
+        "question_t9xpCK",
+        "question_N4JkEn",
+        "question_y4Q9yw"
       ],
       "settings": {
         "style": "with-background",
