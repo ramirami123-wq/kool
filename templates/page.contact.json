@@ -121,8 +121,8 @@
         "ai_gen_block_ffe9de2_EaPixc": {
           "type": "ai_gen_block_ffe9de2",
           "settings": {
-            "image": "shopify://shop_images/Gemini_Generated_Image_gubha5gubha5gubh.png",
-            "image_ratio": "square",
+            "image": "shopify://shop_images/11.jpg",
+            "image_ratio": "adapt",
             "image_fit": "cover",
             "border_radius": 8,
             "desktop_width_percent": 100
