@@ -347,7 +347,7 @@
           "type": "ai_gen_block_d9b9869",
           "settings": {
             "heading": "Why choose us?",
-            "heading_size": 44,
+            "heading_size": 32,
             "heading_color": "#0b61cd",
             "feature_column_label": "Features",
             "us_column_label": "Us",
@@ -397,7 +397,7 @@
             "border_color": "#e5e7eb",
             "us_column_background": "#0b61cd",
             "us_column_text_color": "#ffffff",
-            "us_cell_background": "#f0fdf4",
+            "us_cell_background": "#a8e8e2",
             "check_background": "#ea6244",
             "check_color": "#ffffff",
             "cross_background": "#d55539",
