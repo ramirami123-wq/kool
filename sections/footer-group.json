@@ -44,7 +44,6 @@
         "link_list-1",
         "brand_information"
       ],
-      "disabled": true,
       "settings": {
         "invert_newsletter_others": false,
         "enable_newsletter": true,
@@ -70,6 +69,7 @@
     },
     "footer-copyright": {
       "type": "footer-copyright",
+      "disabled": true,
       "settings": {
         "enable_language_selector": true,
         "enable_country_selector": true,
