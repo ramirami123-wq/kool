@@ -347,7 +347,7 @@
           "type": "ai_gen_block_d9b9869",
           "settings": {
             "heading": "Why choose us?",
-            "heading_size": 32,
+            "heading_size": 44,
             "heading_color": "#0b61cd",
             "feature_column_label": "Features",
             "us_column_label": "Us",
