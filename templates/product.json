@@ -234,7 +234,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Gemini_Generated_Image_eveskzeveskzeves.png",
+        "image": "shopify://shop_images/22.jpg",
         "image_height": "550px",
         "image_width": "medium",
         "layout": "image_first",
