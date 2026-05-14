@@ -75,6 +75,7 @@
     },
     "featured_collection_kekFk3": {
       "type": "featured-collection",
+      "custom_css": [],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "headbands",
