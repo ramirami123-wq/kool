@@ -269,7 +269,7 @@
           "settings": {
             "heading": "Why choose us?",
             "heading_size": 32,
-            "heading_color": "#0b61cd",
+            "heading_color": "#171717",
             "feature_column_label": "Features",
             "us_column_label": "Us",
             "others_column_label": "Others",
