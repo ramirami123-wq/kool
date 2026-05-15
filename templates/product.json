@@ -112,7 +112,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "liquid": "<style>\n  .kidnest-icons-section {\n    background: #ffffff;\n    padding: 0px 0px;\n    font-family: 'Nunito', sans-serif;\n  }\n\n  .kidnest-icons-grid {\n    display: grid;\n    grid-template-columns: repeat(5, 1fr);\n    gap: 28px;\n    max-width: 1100px;\n    margin: 0 auto;\n    text-align: center;\n  }\n\n  .kidnest-icon-card {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n  }\n\n  .kidnest-icon-box {\n    width: 30px;\n    height: 30px;\n    border-radius: 22px;\n    background: #E7F7FF;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin-bottom: 14px;\n  }\n\n  .kidnest-icon-box svg {\n    width: 40px;\n    height: 40px;\n    color: #7DB8E8;\n  }\n\n  .kidnest-icon-title {\n    font-size: 0.82rem;\n    line-height: 1.2;\n    font-weight: 900;\n    color: #1E2B3F;\n    margin: 0;\n    letter-spacing: 0.2px;\n  }\n\n  @media (max-width: 520px) {\n    .kidnest-icons-section {\n      padding: 0px 10px;\n    }\n\n    .kidnest-icons-grid {\n      grid-template-columns: repeat(2, 1fr);\n      gap: 24px 18px;\n    }\n\n    .kidnest-icon-card:last-child {\n      grid-column: 1 / -1;\n    }\n\n    .kidnest-icon-box {\n      width: 30px;\n      height: 30px;\n      border-radius: 22px;\n      margin-bottom: 10px;\n    }\n\n    .kidnest-icon-box svg {\n      width: 40px;\n      height: 40px;\n    }\n\n    .kidnest-icon-title {\n      font-size: 0.82rem;\n    }\n  }\n</style>\n\n<div class=\"kidnest-icons-section\">\n  <div class=\"kidnest-icons-grid\">\n\n    <div class=\"kidnest-icon-card\">\n      <div class=\"kidnest-icon-box\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n          <path d=\"M4 9v6h4l5 4V5L8 9H4z\"/>\n          <path d=\"M16 9.5a4 4 0 010 5\"/>\n          <path d=\"M19 7a8 8 0 010 10\"/>\n          <path d=\"M9 18l9-12\"/>\n        </svg>\n      </div>\n      <p class=\"kidnest-icon-title\">Limited to 85 dB</p>\n    </div>\n\n    <div class=\"kidnest-icon-card\">\n      <div class=\"kidnest-icon-box\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n          <path d=\"M9 11l3 3L22 4\"/>\n          <path d=\"M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11\"/>\n        </svg>\n      </div>\n      <p class=\"kidnest-icon-title\">CE Certified</p>\n    </div>\n\n    <div class=\"kidnest-icon-card\">\n      <div class=\"kidnest-icon-box\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n          <rect x=\"4\" y=\"5\" width=\"16\" height=\"16\" rx=\"2\"/>\n          <path d=\"M8 5V3\"/>\n          <path d=\"M16 5V3\"/>\n          <path d=\"M4 10h16\"/>\n          <path d=\"M9 16l2 2 4-4\"/>\n        </svg>\n      </div>\n      <p class=\"kidnest-icon-title\">Washable</p>\n    </div>\n\n    <div class=\"kidnest-icon-card\">\n      <div class=\"kidnest-icon-box\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n          <path d=\"M12 22s8-4.5 8-12a8 8 0 10-16 0c0 7.5 8 12 8 12z\"/>\n          <path d=\"M9 10c1.5 1 4.5 1 6 0\"/>\n          <path d=\"M8 14h8\"/>\n        </svg>\n      </div>\n      <p class=\"kidnest-icon-title\">Soft Fabric</p>\n    </div>\n\n    <div class=\"kidnest-icon-card\">\n      <div class=\"kidnest-icon-box\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n          <path d=\"M12 3v10\"/>\n          <path d=\"M8 7l4-4 4 4\"/>\n          <path d=\"M5 13v5a3 3 0 003 3h8a3 3 0 003-3v-5\"/>\n        </svg>\n      </div>\n      <p class=\"kidnest-icon-title\">35 Hours Lasting</p>\n    </div>\n\n  </div>\n</div>",
+        "liquid": "<style>\n  .kidnest-icons-section {\n    background: #ffffff;\n    padding: 0px 0px;\n    font-family: 'Nunito', sans-serif;\n  }\n\n  .kidnest-icons-grid {\n    display: grid;\n    grid-template-columns: repeat(5, 1fr);\n    gap: 28px;\n    max-width: 1400px;\n    margin: 0 auto;\n    text-align: center;\n  }\n\n  .kidnest-icon-card {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n  }\n\n  .kidnest-icon-box {\n    width: 30px;\n    height: 30px;\n    border-radius: 22px;\n    background: #E7F7FF;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin-bottom: 14px;\n  }\n\n  .kidnest-icon-box svg {\n    width: 40px;\n    height: 40px;\n    color: #7DB8E8;\n  }\n\n  .kidnest-icon-title {\n    font-size: 0.82rem;\n    line-height: 1.2;\n    font-weight: 900;\n    color: #1E2B3F;\n    margin: 0;\n    letter-spacing: 0.2px;\n  }\n\n  @media (max-width: 520px) {\n    .kidnest-icons-section {\n      padding: 0px 10px;\n    }\n\n    .kidnest-icons-grid {\n      grid-template-columns: repeat(2, 1fr);\n      gap: 24px 18px;\n    }\n\n    .kidnest-icon-card:last-child {\n      grid-column: 1 / -1;\n    }\n\n    .kidnest-icon-box {\n      width: 30px;\n      height: 30px;\n      border-radius: 22px;\n      margin-bottom: 10px;\n    }\n\n    .kidnest-icon-box svg {\n      width: 40px;\n      height: 40px;\n    }\n\n    .kidnest-icon-title {\n      font-size: 0.82rem;\n    }\n  }\n</style>\n\n<div class=\"kidnest-icons-section\">\n  <div class=\"kidnest-icons-grid\">\n\n    <div class=\"kidnest-icon-card\">\n      <div class=\"kidnest-icon-box\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n          <path d=\"M4 9v6h4l5 4V5L8 9H4z\"/>\n          <path d=\"M16 9.5a4 4 0 010 5\"/>\n          <path d=\"M19 7a8 8 0 010 10\"/>\n          <path d=\"M9 18l9-12\"/>\n        </svg>\n      </div>\n      <p class=\"kidnest-icon-title\">Limited to 85 dB</p>\n    </div>\n\n    <div class=\"kidnest-icon-card\">\n      <div class=\"kidnest-icon-box\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n          <path d=\"M9 11l3 3L22 4\"/>\n          <path d=\"M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11\"/>\n        </svg>\n      </div>\n      <p class=\"kidnest-icon-title\">CE Certified</p>\n    </div>\n\n    <div class=\"kidnest-icon-card\">\n      <div class=\"kidnest-icon-box\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n          <rect x=\"4\" y=\"5\" width=\"16\" height=\"16\" rx=\"2\"/>\n          <path d=\"M8 5V3\"/>\n          <path d=\"M16 5V3\"/>\n          <path d=\"M4 10h16\"/>\n          <path d=\"M9 16l2 2 4-4\"/>\n        </svg>\n      </div>\n      <p class=\"kidnest-icon-title\">Washable</p>\n    </div>\n\n    <div class=\"kidnest-icon-card\">\n      <div class=\"kidnest-icon-box\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n          <path d=\"M12 22s8-4.5 8-12a8 8 0 10-16 0c0 7.5 8 12 8 12z\"/>\n          <path d=\"M9 10c1.5 1 4.5 1 6 0\"/>\n          <path d=\"M8 14h8\"/>\n        </svg>\n      </div>\n      <p class=\"kidnest-icon-title\">Soft Fabric</p>\n    </div>\n\n    <div class=\"kidnest-icon-card\">\n      <div class=\"kidnest-icon-box\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n          <path d=\"M12 3v10\"/>\n          <path d=\"M8 7l4-4 4 4\"/>\n          <path d=\"M5 13v5a3 3 0 003 3h8a3 3 0 003-3v-5\"/>\n        </svg>\n      </div>\n      <p class=\"kidnest-icon-title\">35 Hours Lasting</p>\n    </div>\n\n  </div>\n</div>",
         "color_text": "",
         "color_background": "",
         "gradient_background": "",
@@ -124,6 +124,65 @@
         "divider": false,
         "narrow": false,
         "rounded": false
+      }
+    },
+    "image_with_text_9F8eJ3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HCg43y": {
+          "type": "heading",
+          "settings": {
+            "heading": "Where Comfort Meets Technology",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_gPzyPz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>🔹 Ultra-soft, no ear pressure.<br/>🔹 Kids keep them on without a fight.<br/>🔹 Safe volume for young ears.<br/>🔹 No earbuds inside the ear canal.<br/>🔹 Pillow-flat speakers for comfy sleep.<br/>🔹Removable, washable speakers.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HCg43y",
+        "text_gPzyPz"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/22.jpg",
+        "image_height": "550px",
+        "image_width": "medium",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "auto",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "horizontal"
       }
     },
     "help-drawer": {
@@ -297,65 +356,6 @@
         "rounded": false
       }
     },
-    "image_with_text_9F8eJ3": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_HCg43y": {
-          "type": "heading",
-          "settings": {
-            "heading": "Where Comfort Meets Technology",
-            "heading_size": "title-lg tracking-heading",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "text_gPzyPz": {
-          "type": "text",
-          "settings": {
-            "text": "<p>🔹 Ultra-soft, no ear pressure.<br/>🔹 Kids keep them on without a fight.<br/>🔹 Safe volume for young ears.<br/>🔹 No earbuds inside the ear canal.<br/>🔹 Pillow-flat speakers for comfy sleep.<br/>🔹Removable, washable speakers.</p>",
-            "text_size": "subtext-md",
-            "text_max_size": 32,
-            "text_font": "body",
-            "secondary_color": false,
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        }
-      },
-      "block_order": [
-        "heading_HCg43y",
-        "text_gPzyPz"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/22.jpg",
-        "image_height": "550px",
-        "image_width": "medium",
-        "layout": "image_first",
-        "text_alignment": "left",
-        "content_position": "align-self-center",
-        "image_height_mobile": "auto",
-        "text_alignment_mobile": "left",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_background_2": "",
-        "gradient_background_2": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 32,
-        "padding_bottom": 32,
-        "divider": false,
-        "full_width": false,
-        "rounded": false,
-        "enable_parallax": true,
-        "parallax_direction": "horizontal"
-      }
-    },
     "blocks_qJjKz4": {
       "type": "_blocks",
       "blocks": {
@@ -514,11 +514,11 @@
   "order": [
     "main-product",
     "custom_liquid_t9QhCP",
-    "help-drawer",
-    "faq",
-    "custom_liquid_wJqtpt",
     "image_with_text_9F8eJ3",
     "blocks_qJjKz4",
+    "custom_liquid_wJqtpt",
+    "help-drawer",
+    "faq",
     "custom_liquid_cfcxLt",
     "product-recommendations",
     "recently-viewed"
