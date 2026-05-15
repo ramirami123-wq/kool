@@ -66,7 +66,7 @@
         "color_button_text": "",
         "color_button_background": "",
         "color_button_gradient": "",
-        "padding_top": 12,
+        "padding_top": 16,
         "padding_bottom": 0,
         "divider": false,
         "narrow": false,
@@ -129,42 +129,36 @@
         "rounded": false
       }
     },
-    "17787050753a07e251": {
+    "1778787853faecc105": {
       "type": "_blocks",
       "blocks": {
-        "ai_gen_block_7b10b4f_bV894H": {
-          "type": "ai_gen_block_7b10b4f",
+        "ai_gen_block_f5c27ef_ayiaFx": {
+          "type": "ai_gen_block_f5c27ef",
           "settings": {
-            "image": "shopify://shop_images/us_vs_them.jpg",
+            "image": "shopify://shop_images/ChatGPT_Image_May_14_2026_10_52_54_PM.png",
             "image_fit": "contain",
             "image_position": "center center",
-            "show_overlay": false,
+            "show_overlay": true,
             "overlay_color": "#000000",
             "overlay_opacity": 30,
+            "show_content": true,
             "heading": "",
+            "heading_size": 60,
             "subheading": "",
-            "heading_size": 64,
             "subheading_size": 20,
-            "heading_color": "#ffffff",
-            "subheading_color": "#ffffff",
-            "content_max_width": 800,
-            "content_alignment_horizontal": "center",
-            "content_alignment_vertical": "center",
-            "text_alignment": "center",
+            "text_color": "#ffffff",
             "button_text": "Shop now",
             "button_link": "",
-            "button_font_size": 16,
-            "button_border_radius": 4,
-            "button_background": "#c79027",
+            "button_background": "#0b61cd",
             "button_text_color": "#ffffff",
-            "button_hover_background": "#a67820",
-            "button_hover_text_color": "#ffffff"
+            "button_hover_background": "#ffffff",
+            "button_hover_text_color": "#0b61cd"
           },
           "blocks": {}
         }
       },
       "block_order": [
-        "ai_gen_block_7b10b4f_bV894H"
+        "ai_gen_block_f5c27ef_ayiaFx"
       ],
       "settings": {}
     },
@@ -229,7 +223,7 @@
     "custom_liquid_8w3w9p",
     "featured_collection_kekFk3",
     "custom_liquid_NUxUTh",
-    "17787050753a07e251",
+    "1778787853faecc105",
     "rich-text-1",
     "17781656336b53f611"
   ]
