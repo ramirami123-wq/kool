@@ -1,0 +1,541 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "liquid_aGywqx": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.star-review-container {\n  text-align: center;\n}\n\n.star-review-wrapper {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  flex-wrap: nowrap;\n}\n\n.star-icons {\n  display: flex;\n  gap: 4px;\n}\n\n.star-icons svg {\n  width: 20px;\n  height: 20px;\n  fill: #0B61CD;\n}\n\n.review-text {\n  font-size: 16px;\n  font-weight: 500;\n  color: #333;\n  white-space: nowrap;\n}\n\n.review-subtitle {\n  margin-top: 6px;\n  font-size: 15px;\n  color: #333;\n  font-weight: 500;\n}\n\n@media (max-width: 480px) {\n  .star-review-wrapper {\n    flex-direction: row;\n    justify-content: center;\n    text-align: center;\n  }\n}\n</style>\n\n<div class=\"star-review-container\">\n  <div class=\"star-review-wrapper\">\n    <div class=\"star-icons\">\n      <svg viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n      <svg viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n      <svg viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n      <svg viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n      <svg viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n\n    <div class=\"review-text\">\n      <strong>5</strong> by <strong>124+</strong> Parents\n    </div>\n  </div>\n\n  <div class=\"review-subtitle\">\n    Kids love them, parents relax\n  </div>\n</div>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "product-title-md",
+            "title_size_mobile": "product-title-md",
+            "show_price": true,
+            "show_rating": true
+          }
+        },
+        "liquid_wCPcHF": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<section class=\"sale-timer\" aria-label=\"Sale countdown timer\">\n  <style>\n    .sale-timer{\n      width:100%;\n      padding:12\npx 12px;\n      display:flex;\n      justify-content:center;\n      background:##ff85d0;\n      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;\n    }\n    .sale-timer__wrap{\n      text-align:center;\n    }\n    .sale-timer__label{\n      font-size:24px;\n      font-weight:500;\n      color:#111;\n      margin:0 0 14px 0;\n      line-height:1.1;\n    }\n\n    .sale-timer__row{\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      gap:10px;\n    }\n\n    .sale-timer__box{\n      width:88px;\n      height:68px;\n      background:#ea6244;\n      color:#fff;\n      border-radius:6px;\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      font-size:34px;\n      font-weight:700;\n      letter-spacing:1px;\n      font-variant-numeric: tabular-nums;\n    }\n\n    .sale-timer__colon{\n      font-size:32px;\n      font-weight:700;\n      color:#ff2a2a;\n      line-height:1;\n      transform: translateY(-1px);\n      user-select:none;\n    }\n\n    @media (max-width:420px){\n      .sale-timer__label{ font-size:20px; }\n      .sale-timer__box{ width:72px; height:58px; font-size:30px; }\n      .sale-timer__colon{ font-size:28px; }\n      .sale-timer__row{ gap:8px; }\n    }\n  </style>\n\n  <div class=\"sale-timer__wrap\">\n    <div class=\"sale-timer__label\">Hurry! Sale ends in</div>\n\n    <div class=\"sale-timer__row\" role=\"timer\" aria-live=\"polite\">\n      <div class=\"sale-timer__box\" id=\"st-hours\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-mins\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-secs\">00</div>\n    </div>\n  </div>\n\n  <script>\n    (function () {\n      const durationHours = 12; // change if needed\n      const endAt = Date.now() + durationHours * 60 * 60 * 1000;\n\n      const h = document.getElementById(\"st-hours\");\n      const m = document.getElementById(\"st-mins\");\n      const s = document.getElementById(\"st-secs\");\n\n      const pad = n => String(n).padStart(2, \"0\");\n\n      function update(){\n        let diff = endAt - Date.now();\n        if(diff < 0) diff = 0;\n\n        const total = Math.floor(diff / 1000);\n        h.textContent = pad(Math.floor(total / 3600));\n        m.textContent = pad(Math.floor((total % 3600) / 60));\n        s.textContent = pad(total % 60);\n\n        if(diff === 0) clearInterval(timer);\n      }\n\n      update();\n      const timer = setInterval(update, 1000);\n    })();\n  </script>\n</section>"
+          }
+        },
+        "liquid_WhRePC": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n<span style=\"font-weight: bold;\">👧 Suitable for Ages 3–10</span> – Soft, stretchy and designed for a comfortable kid-friendly fit.<br><br>\n\n<span style=\"font-weight: bold;\">😴 Better Sleep Anytime</span> – Helps kids relax and fall asleep faster with soothing music or sounds / face mask.<br><br>\n\n<span style=\"font-weight: bold;\">🎧 Built-in Bluetooth Speakers</span> – Enjoy wireless listening without uncomfortable earbuds or headphones.<br><br>\n\n<span style=\"font-weight: bold;\">🌙 Soft, Comfortable Fit</span> – Stretchy and breathable headband designed for all-night comfort.\n\n</div>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "color_swatch_type": "color",
+            "size_chart": ""
+          }
+        },
+        "liquid_9wtMd4": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
+        "liquid_8CKfpP": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"kidnest-color-selector\">\n  <p class=\"kidnest-color-title\">Also available in</p>\n\n  <div class=\"kidnest-color-swatches\">\n    <a href=\"/products/girls-headband\" class=\"kidnest-swatch kidnest-pink\" aria-label=\"Pink color\"></a>\n  </div>\n</div>\n\n<style>\n  .kidnest-color-selector {\n    margin: 16px 0;\n  }\n\n  .kidnest-color-title {\n    font-size: 15px;\n    font-weight: 800;\n    margin-bottom: 10px;\n    color: #1E2B3F;\n  }\n\n  .kidnest-color-swatches {\n    display: flex;\n    gap: 14px;\n    align-items: center;\n  }\n\n  .kidnest-swatch {\n    width: 38px !important;\n    height: 38px !important;\n    min-width: 38px;\n    min-height: 38px;\n    border-radius: 50% !important;\n    display: inline-block !important;\n    text-decoration: none !important;\n    border: 2px solid #dddddd;\n    box-shadow: 0 0 0 3px #ffffff inset;\n    overflow: hidden;\n  }\n\n  .kidnest-pink {\n    background-color: #F6A7C8 !important;\n  }\n\n  .kidnest-swatch:hover,\n  .kidnest-swatch:focus,\n  .kidnest-swatch:visited {\n    text-decoration: none !important;\n  }\n</style>"
+          }
+        },
+        "liquid_nNzzM9": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:500;color:#c0392b;letter-spacing:0.01em;\">\n  <span style=\"width:8px;height:8px;border-radius:50%;background:#c0392b;flex-shrink:0;animation:pulse 1.8s ease-in-out infinite;\"></span>\n  Low Stock – Order now before we sell out!\n  <style>@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.85)}}</style>\n</div>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true,
+            "enable_back_in_stock": false,
+            "show_back_in_stock_name": false,
+            "show_back_in_stock_phone": false
+          }
+        },
+        "liquid_TUwD6P": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>Order now to receive in <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        var currentDate = new Date();\n\n        var minDeliveryDate = new Date();\n        minDeliveryDate.setDate(currentDate.getDate() + 5); // 5 days from now\n\n        var maxDeliveryDate = new Date();\n        maxDeliveryDate.setDate(currentDate.getDate() + 7); // 7 days from now\n\n        var formatDate = function(date) {\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n              \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];\n            var day = date.getDate();\n            var monthIndex = date.getMonth();\n            return monthNames[monthIndex] + \" \" + day;\n        };\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        deliverySpan.textContent = formatDate(minDeliveryDate) + ' - ' + formatDate(maxDeliveryDate);\n    });\n</script>"
+          }
+        },
+        "sticky_buy_button": {
+          "type": "sticky_buy_button",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "liquid_aGywqx",
+        "title",
+        "liquid_wCPcHF",
+        "liquid_WhRePC",
+        "variant_picker",
+        "liquid_9wtMd4",
+        "liquid_8CKfpP",
+        "liquid_nNzzM9",
+        "buy_buttons",
+        "liquid_TUwD6P",
+        "sticky_buy_button"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": 66,
+        "gallery_layout": "thumbnail",
+        "thumbnail_position": "beside",
+        "image_ratio": "adapt_first",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "mobile_layout": "full_width",
+        "image_ratio_mobile": "adapt_first",
+        "mobile_thumbnail": false,
+        "padding_top": 0,
+        "padding_bottom": 16,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
+    },
+    "custom_liquid_t9QhCP": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "liquid": "<style>\n  .kidnest-icons-section {\n    background: #ffffff;\n    padding: 0px 0px;\n    font-family: 'Nunito', sans-serif;\n  }\n\n  .kidnest-icons-grid {\n    display: grid;\n    grid-template-columns: repeat(5, 1fr);\n    gap: 28px;\n    max-width: 1400px;\n    margin: 0 auto;\n    text-align: center;\n  }\n\n  .kidnest-icon-card {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n  }\n\n  .kidnest-icon-box {\n    width: 30px;\n    height: 30px;\n    border-radius: 22px;\n    background: #E7F7FF;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin-bottom: 14px;\n  }\n\n  .kidnest-icon-box svg {\n    width: 40px;\n    height: 40px;\n    color: #7DB8E8;\n  }\n\n  .kidnest-icon-title {\n    font-size: 0.82rem;\n    line-height: 1.2;\n    font-weight: 900;\n    color: #1E2B3F;\n    margin: 0;\n    letter-spacing: 0.2px;\n  }\n\n  @media (max-width: 520px) {\n    .kidnest-icons-section {\n      padding: 0px 10px;\n    }\n\n    .kidnest-icons-grid {\n      grid-template-columns: repeat(2, 1fr);\n      gap: 24px 18px;\n    }\n\n    .kidnest-icon-card:last-child {\n      grid-column: 1 / -1;\n    }\n\n    .kidnest-icon-box {\n      width: 30px;\n      height: 30px;\n      border-radius: 22px;\n      margin-bottom: 10px;\n    }\n\n    .kidnest-icon-box svg {\n      width: 40px;\n      height: 40px;\n    }\n\n    .kidnest-icon-title {\n      font-size: 0.82rem;\n    }\n  }\n</style>\n\n<div class=\"kidnest-icons-section\">\n  <div class=\"kidnest-icons-grid\">\n\n    <div class=\"kidnest-icon-card\">\n      <div class=\"kidnest-icon-box\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n          <path d=\"M4 9v6h4l5 4V5L8 9H4z\"/>\n          <path d=\"M16 9.5a4 4 0 010 5\"/>\n          <path d=\"M19 7a8 8 0 010 10\"/>\n          <path d=\"M9 18l9-12\"/>\n        </svg>\n      </div>\n      <p class=\"kidnest-icon-title\">Limited to 85 dB</p>\n    </div>\n\n    <div class=\"kidnest-icon-card\">\n      <div class=\"kidnest-icon-box\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n          <path d=\"M9 11l3 3L22 4\"/>\n          <path d=\"M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11\"/>\n        </svg>\n      </div>\n      <p class=\"kidnest-icon-title\">CE Certified</p>\n    </div>\n\n    <div class=\"kidnest-icon-card\">\n      <div class=\"kidnest-icon-box\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n          <rect x=\"4\" y=\"5\" width=\"16\" height=\"16\" rx=\"2\"/>\n          <path d=\"M8 5V3\"/>\n          <path d=\"M16 5V3\"/>\n          <path d=\"M4 10h16\"/>\n          <path d=\"M9 16l2 2 4-4\"/>\n        </svg>\n      </div>\n      <p class=\"kidnest-icon-title\">Washable</p>\n    </div>\n\n    <div class=\"kidnest-icon-card\">\n      <div class=\"kidnest-icon-box\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n          <path d=\"M12 22s8-4.5 8-12a8 8 0 10-16 0c0 7.5 8 12 8 12z\"/>\n          <path d=\"M9 10c1.5 1 4.5 1 6 0\"/>\n          <path d=\"M8 14h8\"/>\n        </svg>\n      </div>\n      <p class=\"kidnest-icon-title\">Soft Fabric</p>\n    </div>\n\n    <div class=\"kidnest-icon-card\">\n      <div class=\"kidnest-icon-box\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n          <path d=\"M12 3v10\"/>\n          <path d=\"M8 7l4-4 4 4\"/>\n          <path d=\"M5 13v5a3 3 0 003 3h8a3 3 0 003-3v-5\"/>\n        </svg>\n      </div>\n      <p class=\"kidnest-icon-title\">35 Hours Lasting</p>\n    </div>\n\n  </div>\n</div>",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "custom_liquid_wJqtpt": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "liquid": "<div class=\"kidnest-reviews-marquee\">\n  <div class=\"kidnest-reviews-track\">\n\n    <div class=\"kidnest-review-card\">\n      <div class=\"stars\">★★★★★</div>\n      <p>“My daughter loves wearing it. Super soft and easy to use.”</p>\n      <span>-Maya</span>\n    </div>\n\n    <div class=\"kidnest-review-card\">\n      <div class=\"stars\">★★★★★</div>\n      <p>“Perfect for car rides. It keeps my little one calm and entertained.”</p>\n      <span>-Sarah</span>\n    </div>\n\n    <div class=\"kidnest-review-card\">\n      <div class=\"stars\">★★★★★</div>\n      <p>“Lightweight, cute, and actually comfortable for kids.”</p>\n      <span>-Lea</span>\n    </div>\n\n    <div class=\"kidnest-review-card\">\n      <div class=\"stars\">★★★★★</div>\n      <p>“Great gift idea. The design is adorable and practical.”</p>\n      <span>-Rania</span>\n    </div>\n\n    <div class=\"kidnest-review-card\">\n      <div class=\"stars\">★★★★★</div>\n      <p>“My daughter loves wearing it. Super soft and easy to use.”</p>\n      <span>-Maya</span>\n    </div>\n\n    <div class=\"kidnest-review-card\">\n      <div class=\"stars\">★★★★★</div>\n      <p>“Perfect for car rides. It keeps my little one calm and entertained.”</p>\n      <span>-Sarah</span>\n    </div>\n\n  </div>\n</div>\n\n<style>\n.kidnest-reviews-marquee {\n  background: #ffffff;\n  overflow: hidden;\n  padding: 0;\n  width: 100%;\n  min-height: 150px;\n  display: flex;\n  align-items: stretch;\n}\n\n.kidnest-reviews-track {\n  display: flex;\n  gap: 16px;\n  width: max-content;\n  animation: kidnest-scroll 26s linear infinite;\n  align-items: stretch;\n}\n\n.kidnest-review-card {\n  width: 280px;\n  min-height: 150px;\n  background: #A8E8E2;\n  border: 2px solid #0B61CD;\n  border-radius: 14px;\n  padding: 10px;\n  text-align: center;\n  color: #ffffff;\n  flex-shrink: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.kidnest-review-card .stars {\n  color: #0B61CD;\n  font-size: 15px;\n  letter-spacing: 2px;\n  margin-bottom: 8px;\n}\n\n.kidnest-review-card p {\n  font-size: 14px;\n  line-height: 1.4;\n  margin: 0 0 10px;\n  color: #0B61CD;\n}\n\n.kidnest-review-card span {\n  font-size: 13px;\n  font-weight: 700;\n  color: #0B61CD;\n}\n\n@keyframes kidnest-scroll {\n  from { transform: translateX(0); }\n  to { transform: translateX(-50%); }\n}\n\n@media screen and (max-width: 749px) {\n  .kidnest-reviews-marquee {\n    min-height: 150px;\n  }\n\n  .kidnest-review-card {\n    width: 240px;\n    min-height: 170px;\n  }\n}\n</style>",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "image_with_text_9F8eJ3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HCg43y": {
+          "type": "heading",
+          "settings": {
+            "heading": "Where Comfort Meets Technology",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_gPzyPz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>🔹 Ultra-soft, no ear pressure.<br/>🔹 Kids keep them on without a fight.<br/>🔹 Safe volume for young ears.<br/>🔹 No earbuds inside the ear canal.<br/>🔹 Pillow-flat speakers for comfy sleep.<br/>🔹Removable, washable speakers.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HCg43y",
+        "text_gPzyPz"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/22.jpg",
+        "image_height": "550px",
+        "image_width": "medium",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "auto",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "horizontal"
+      }
+    },
+    "blocks_qJjKz4": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_d9b9869_AjMQDp": {
+          "type": "ai_gen_block_d9b9869",
+          "settings": {
+            "heading": "Why choose us?",
+            "heading_size": 32,
+            "heading_color": "#171717",
+            "feature_column_label": "Features",
+            "us_column_label": "Us",
+            "others_column_label": "Others",
+            "show_badge": false,
+            "badge_text": "Best",
+            "badge_background": "#ea6244",
+            "badge_text_color": "#ffffff",
+            "feature_1": "Comfortable for Sleep",
+            "us_1": "check",
+            "others_1": "cross",
+            "feature_2": "Built-in Bluetooth",
+            "us_2": "check",
+            "others_2": "cross",
+            "feature_3": "Kid-Friendly Design",
+            "us_3": "check",
+            "others_3": "cross",
+            "feature_4": "Washable",
+            "us_4": "check",
+            "others_4": "cross",
+            "feature_5": "Easy to Use",
+            "us_5": "check",
+            "others_5": "cross",
+            "feature_6": "",
+            "us_6": "check",
+            "others_6": "cross",
+            "feature_7": "",
+            "us_7": "check",
+            "others_7": "cross",
+            "feature_8": "",
+            "us_8": "check",
+            "others_8": "cross",
+            "feature_9": "",
+            "us_9": "check",
+            "others_9": "cross",
+            "feature_10": "",
+            "us_10": "check",
+            "others_10": "cross",
+            "desktop_width_percent": 100,
+            "table_border_radius": 8,
+            "header_font_size": 16,
+            "body_font_size": 14,
+            "table_background": "#a8e8e2",
+            "header_background": "#0b61cd",
+            "header_text_color": "#ffffff",
+            "body_text_color": "#0b61cd",
+            "border_color": "#e5e7eb",
+            "us_column_background": "#0b61cd",
+            "us_column_text_color": "#ffffff",
+            "us_cell_background": "#a8e8e2",
+            "check_background": "#ea6244",
+            "check_color": "#ffffff",
+            "cross_background": "#d55539",
+            "cross_color": "#ffffff"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_d9b9869_AjMQDp"
+      ],
+      "name": "Us vs others table",
+      "settings": {}
+    },
+    "help-drawer": {
+      "type": "help-drawer",
+      "blocks": {
+        "content-1": {
+          "type": "content",
+          "settings": {
+            "icon": "rocket",
+            "heading": "Shipping Information",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#b45309",
+            "color_background": "#fffbeb",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        },
+        "content-2": {
+          "type": "content",
+          "settings": {
+            "icon": "headphone",
+            "heading": "Customer Support",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#0369a1",
+            "color_background": "#f0f9ff",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        },
+        "content-3": {
+          "type": "content",
+          "settings": {
+            "icon": "chat_bubble",
+            "heading": "FAQ’s",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#be123c",
+            "color_background": "#fff1f2",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        },
+        "content-4": {
+          "type": "content",
+          "settings": {
+            "icon": "phone",
+            "heading": "Contact Us",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#4d7c0f",
+            "color_background": "#f7fee7",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        }
+      },
+      "block_order": [
+        "content-1",
+        "content-2",
+        "content-3",
+        "content-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Need help?",
+        "description": "<p>If you have any questions, you are always welcome to contact us. We'll get back to you as soon as possible, within 24 hours on weekdays.</p>"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "question_Bg6wRN": {
+          "type": "question",
+          "settings": {
+            "title": "Size & Details",
+            "text": "<p><strong>- One size fits all: </strong> 24 cm and can stretch out to 30 cm.<br/><strong>- Fully machine washable:</strong> after removing the cables.<br/></p><p></p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_t9xpCK": {
+          "type": "question",
+          "settings": {
+            "title": "Will it be compatible with my device?",
+            "text": "<p>Our headbands are comptible with all bluetooth enabled devices! Which means android, iphone, ipad and more.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_N4JkEn": {
+          "type": "question",
+          "settings": {
+            "title": "Can it be used without music?",
+            "text": "<p><strong>Yes,</strong> it works as a normal soft headband too.</p><p></p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_y4Q9yw": {
+          "type": "question",
+          "settings": {
+            "title": "How do i charge it and how long does it need to charge?",
+            "text": "<p>There is a USB plug within the bluetooth module that can easily be charged with the included UBS-C cable. <br/>Charge fully in about 2-3 hours.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "question_Bg6wRN",
+        "question_t9xpCK",
+        "question_N4JkEn",
+        "question_y4Q9yw"
+      ],
+      "settings": {
+        "style": "with-background",
+        "heading": "FAQ's",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "#ffffff",
+        "color_background": "#d55539",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "#e11d48",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
+        "padding_top": 24,
+        "padding_bottom": 24,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "custom_liquid_cfcxLt": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "liquid": "<div class=\"kidnest-info-banner\">\n  <div class=\"kidnest-info-item\">\n    <div class=\"kidnest-icon\">\n      <svg viewBox=\"0 0 24 24\"><path d=\"M12 21s-7-4.4-7-11a7 7 0 0 1 14 0c0 6.6-7 11-7 11z\"/><path d=\"M9 10l2 2 4-4\"/></svg>\n    </div>\n    <h3>PREMIUM MATERIAL</h3>\n    <p class=\"kidnest-bold\">Hypoallergenic • Lightweight</p>\n    <p>Designed for little ones to enjoy music, stories, and calm moments comfortably.</p>\n  </div>\n\n  <div class=\"kidnest-info-item\">\n    <div class=\"kidnest-icon\">\n      <svg viewBox=\"0 0 24 24\"><path d=\"M12 3l8 4v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z\"/><path d=\"M9 12l2 2 4-4\"/></svg>\n    </div>\n    <h3>FULL GUARANTEE</h3>\n    <p class=\"kidnest-bold\">For anytime, anywhere</p>\n    <p>Made to support everyday routines at home, on the go, or during quiet time.</p>\n  </div>\n\n  <div class=\"kidnest-info-item\">\n    <div class=\"kidnest-icon\">\n      <svg viewBox=\"0 0 24 24\"><path d=\"M3 13h18l-2-5H7l-4 5z\"/><path d=\"M5 13v4h2M17 17h2v-4\"/><circle cx=\"7\" cy=\"17\" r=\"2\"/><circle cx=\"17\" cy=\"17\" r=\"2\"/><path d=\"M7 8V5h8v3\"/></svg>\n    </div>\n    <h3>FAST DELIVERY</h3>\n    <p class=\"kidnest-bold\">Delivered in 3-5 business days</p>\n    <p>Delivered safely across Lebanon, straight to your door.</p>\n  </div>\n</div>\n\n<style>\n.kidnest-info-banner {\n  width: 100%;\n  background: #fffff;\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  padding: 0 20px;\n}\n\n.kidnest-info-item {\n  text-align: center;\n  padding: 0 35px;\n  color: #0B61CD;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.kidnest-info-item:not(:last-child) {\n  border-right: 1px solid #0B61CD;\n}\n\n.kidnest-icon {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.kidnest-icon svg {\n  width: 34px;\n  height: 34px;\n  margin-bottom: 20px;\n  stroke: #0B61CD;\n  fill: none;\n  stroke-width: 1.6;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n}\n\n.kidnest-info-item h3 {\n  margin: 0 0 12px;\n  font-size: 24px;\n  font-weight: 500;\n  letter-spacing: 1.2px;\n  color: #0B61CD;\n}\n\n.kidnest-info-item p {\n  margin: 0 0 22px;\n  font-size: 15px;\n  line-height: 1.5;\n  color: #0B61CD;\n}\n\n.kidnest-info-item p:last-child {\n  margin-bottom: 0;\n}\n\n.kidnest-bold {\n  font-weight: 700;\n}\n\n@media screen and (max-width: 749px) {\n  .kidnest-info-banner {\n    grid-template-columns: 1fr;\n    padding: 0 18px;\n    gap: 2;\n  }\n\n  .kidnest-info-item {\n    padding: 0 10px 28px;\n  }\n\n  .kidnest-info-item:not(:last-child) {\n    border-right: none;\n    border-bottom: 1px solid #0B61CD;\n  }\n\n  .kidnest-info-item h3 {\n    font-size: 20px;\n  }\n}\n</style>",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 12,
+        "padding_bottom": 28,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_limit": 6,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "You may also like",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "product_limit": 6,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Recently Viewed",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "main-product",
+    "custom_liquid_t9QhCP",
+    "custom_liquid_wJqtpt",
+    "image_with_text_9F8eJ3",
+    "blocks_qJjKz4",
+    "help-drawer",
+    "faq",
+    "custom_liquid_cfcxLt",
+    "product-recommendations",
+    "recently-viewed"
+  ]
+}
