@@ -366,8 +366,8 @@
         "question_t9xpCK": {
           "type": "question",
           "settings": {
-            "title": "Will it be comptible with my device?",
-            "text": "<p>Our headbands are comptible with all bluetooth enabled devices!which means android, iphone, ipad and more</p>",
+            "title": "Will it be compatible with my device?",
+            "text": "<p>Our headbands are comptible with all bluetooth enabled devices! Which means android, iphone, ipad and more.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -384,8 +384,8 @@
         "question_y4Q9yw": {
           "type": "question",
           "settings": {
-            "title": "How do i charge it and how long does it last?",
-            "text": "<p>There is a USB plug within the bluetooth module that can easily be charged with the included UBS-C cable. <br/>Charge fully in about 2-3 hours </p>",
+            "title": "How do i charge it and how long does it need to charge?",
+            "text": "<p>There is a USB plug within the bluetooth module that can easily be charged with the included UBS-C cable. <br/>Charge fully in about 2-3 hours.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
