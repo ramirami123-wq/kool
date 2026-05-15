@@ -27,6 +27,12 @@
             "show_rating": true
           }
         },
+        "liquid_8CKfpP": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"kidnest-color-selector\">\n  <p class=\"kidnest-color-title\">Also available in</p>\n\n  <div class=\"kidnest-color-swatches\">\n    <a href=\"/products/bluetooth-kids-headband\" class=\"kidnest-swatch kidnest-blue\" aria-label=\"Blue color\"></a>\n  </div>\n</div>\n\n<style>\n  .kidnest-color-selector {\n    margin: 16px 0;\n  }\n\n  .kidnest-color-title {\n    font-size: 15px;\n    font-weight: 800;\n    margin-bottom: 10px;\n    color: #1E2B3F;\n  }\n\n  .kidnest-color-swatches {\n    display: flex;\n    gap: 14px;\n    align-items: center;\n  }\n\n  .kidnest-swatch {\n    width: 38px !important;\n    height: 38px !important;\n    min-width: 38px;\n    min-height: 38px;\n    border-radius: 50% !important;\n    display: inline-block !important;\n    text-decoration: none !important;\n    border: 2px solid #dddddd;\n    box-shadow: 0 0 0 3px #ffffff inset;\n    overflow: hidden;\n  }\n\n  .kidnest-blue {\n    background-color: #A8E8E2 !important;\n  }\n\n  .kidnest-swatch:hover,\n  .kidnest-swatch:focus,\n  .kidnest-swatch:visited {\n    text-decoration: none !important;\n  }\n</style>"
+          }
+        },
         "liquid_wCPcHF": {
           "type": "liquid",
           "settings": {
@@ -54,12 +60,6 @@
           "type": "liquid",
           "settings": {
             "liquid": ""
-          }
-        },
-        "liquid_8CKfpP": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"kidnest-color-selector\">\n  <p class=\"kidnest-color-title\">Also available in</p>\n\n  <div class=\"kidnest-color-swatches\">\n    <a href=\"/products/bluetooth-kids-headband\" class=\"kidnest-swatch kidnest-blue\" aria-label=\"Blue color\"></a>\n  </div>\n</div>\n\n<style>\n  .kidnest-color-selector {\n    margin: 16px 0;\n  }\n\n  .kidnest-color-title {\n    font-size: 15px;\n    font-weight: 800;\n    margin-bottom: 10px;\n    color: #1E2B3F;\n  }\n\n  .kidnest-color-swatches {\n    display: flex;\n    gap: 14px;\n    align-items: center;\n  }\n\n  .kidnest-swatch {\n    width: 38px !important;\n    height: 38px !important;\n    min-width: 38px;\n    min-height: 38px;\n    border-radius: 50% !important;\n    display: inline-block !important;\n    text-decoration: none !important;\n    border: 2px solid #dddddd;\n    box-shadow: 0 0 0 3px #ffffff inset;\n    overflow: hidden;\n  }\n\n  .kidnest-blue {\n    background-color: #A8E8E2 !important;\n  }\n\n  .kidnest-swatch:hover,\n  .kidnest-swatch:focus,\n  .kidnest-swatch:visited {\n    text-decoration: none !important;\n  }\n</style>"
           }
         },
         "liquid_nNzzM9": {
@@ -93,11 +93,11 @@
       "block_order": [
         "liquid_aGywqx",
         "title",
+        "liquid_8CKfpP",
         "liquid_wCPcHF",
         "liquid_WhRePC",
         "variant_picker",
         "liquid_9wtMd4",
-        "liquid_8CKfpP",
         "liquid_nNzzM9",
         "buy_buttons",
         "liquid_TUwD6P",
