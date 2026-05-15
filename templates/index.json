@@ -234,6 +234,76 @@
     "17781656336b53f611": {
       "type": "_blocks",
       "settings": {}
+    },
+    "countdown_timer_h6DHtj": {
+      "type": "countdown-timer",
+      "blocks": {
+        "heading_QDdQdD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Calm Moments for them. Easier days for you",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "timer_w9APCh": {
+          "type": "timer",
+          "settings": {
+            "year": "2026",
+            "month": "01",
+            "day": "1",
+            "hour": "03",
+            "minute": "00",
+            "text_font": "heading",
+            "text_size": "title-lg tracking-heading",
+            "message": ""
+          }
+        },
+        "button_jccikk": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/all",
+            "button_style": "secondary",
+            "button_size": "sm",
+            "button_external": false,
+            "button_icon": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_QDdQdD",
+        "timer_w9APCh",
+        "button_jccikk"
+      ],
+      "name": "t:sections.countdown-timer.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image_height": "650px",
+        "content_width": "small",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 70,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
     }
   },
   "order": [
@@ -244,6 +314,7 @@
     "custom_liquid_NUxUTh",
     "1778787853faecc105",
     "rich-text-1",
-    "17781656336b53f611"
+    "17781656336b53f611",
+    "countdown_timer_h6DHtj"
   ]
 }
