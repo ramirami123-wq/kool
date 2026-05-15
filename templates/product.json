@@ -36,7 +36,7 @@
         "liquid_WhRePC": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">😴 Better Sleep Anytime</span> – Helps kids relax and fall asleep faster with soothing music or sounds.<br><br>\n\n<span style=\"font-weight: bold;\">🎧 Built-in Bluetooth Speakers</span> – Enjoy wireless listening without uncomfortable earbuds or headphones.<br><br>\n\n<span style=\"font-weight: bold;\">🌙 Soft, Comfortable Fit</span> – Stretchy and breathable headband designed for all-night comfort.\n</div>"
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n<span style=\"font-weight: bold;\">👧 Suitable for Ages 3–10</span> – Soft, stretchy and designed for a comfortable kid-friendly fit.<br><br>\n\n<span style=\"font-weight: bold;\">😴 Better Sleep Anytime</span> – Helps kids relax and fall asleep faster with soothing music or sounds / face mask.<br><br>\n\n<span style=\"font-weight: bold;\">🎧 Built-in Bluetooth Speakers</span> – Enjoy wireless listening without uncomfortable earbuds or headphones.<br><br>\n\n<span style=\"font-weight: bold;\">🌙 Soft, Comfortable Fit</span> – Stretchy and breathable headband designed for all-night comfort.\n\n</div>"
           }
         },
         "variant_picker": {
